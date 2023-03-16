@@ -6,7 +6,7 @@ import argparse
 from .lexer.lexer import Lexer, TokenError
 from .exceptions import CParsingError
 from .registry import Registry
-from context import Context
+from .context import Context
 from tools.colors import colors
 
 

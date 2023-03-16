@@ -1,9 +1,9 @@
 from functools import cmp_to_key
 
 
-from .rules import __all__ as rules
+from . import rules as rules
 # import rules as rules
-from exceptions import CParsingError
+from .exceptions import CParsingError
 
 
 def sort_errs(a, b):

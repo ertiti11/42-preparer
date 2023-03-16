@@ -1,8 +1,8 @@
-from exceptions import CParsingError
-from lexer.dictionary import operators
-from norm_error import NormError, NormWarning
-from scope import GlobalScope, ControlStructure
-from tools.colors import colors
+from .exceptions import CParsingError
+from .lexer.dictionary import operators
+from .norm_error import NormError, NormWarning
+from .scope import GlobalScope, ControlStructure
+from .tools.colors import colors
 types = [
     "CHAR",
     "DOUBLE",
