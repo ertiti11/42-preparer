@@ -1,7 +1,7 @@
-from lexer.dictionary import brackets
-from lexer.dictionary import keywords
-from lexer.dictionary import operators
-from lexer.dictionary import preproc_keywords
+from .dictionary import brackets
+from .dictionary import keywords
+from .dictionary import operators
+from .dictionary import preproc_keywords
 
 
 class Token:

@@ -3,9 +3,9 @@ import os
 import sys
 
 import argparse
-from lexer import Lexer, TokenError
-from exceptions import CParsingError
-from registry import Registry
+from .lexer.lexer import Lexer, TokenError
+from .exceptions import CParsingError
+from .registry import Registry
 from context import Context
 from tools.colors import colors
 
@@ -26,6 +26,7 @@ def timeout(e, timeval=5):
 
 
 def main():
+    print("holaaa")
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "file",

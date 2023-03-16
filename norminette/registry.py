@@ -1,6 +1,8 @@
 from functools import cmp_to_key
 
-import rules as rules
+
+from .rules import __all__ as rules
+# import rules as rules
 from exceptions import CParsingError
 
 
